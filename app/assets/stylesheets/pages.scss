@@ -1,0 +1,46 @@
+.nav-link {
+    color: black;
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+#home-container {
+    margin-top: 25px;
+}
+
+.jumbotron {
+    background-image: asset-url('articlepic.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 700px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#page-content {
+    flex: 1 0 auto;
+    background-color: lightgray;
+}
+
+#sticky-footer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.head {
+    color: yellow;
+}
+
+/* Other Classes for Page Styling */
+
+// body {
+//     background: #007bff;
+//     background: linear-gradient(to right, #0062E6, #33AEFF);
+// }
