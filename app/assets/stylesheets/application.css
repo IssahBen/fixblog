@@ -14,3 +14,12 @@
  *= require_self
  
  */
+
+#page-content {
+    flex: 1 0 auto;
+    background-color: burlywood;
+}
+
+body {
+    background-color: black;
+}

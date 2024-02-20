@@ -26,6 +26,20 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+                <% if logged_in? && current_user.admin? %>
+                    <li><a class="dropdown-item" href="<%=new_category_path%>">Create new category</a></li>
+                <% end%>
+              <li><a class="dropdown-item" href="<%= categories_path%>">View Categories</a></li>
+              <li><hr class="dropdown-divider"></li>
+       
+            </ul>
+          </li>
          
           <% if logged_in? %>
             <li>  <%= button_to 'Log out',logout_path,class: "nav-link",method: :delete%> 

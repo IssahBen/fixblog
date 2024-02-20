@@ -128,6 +128,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.0-x86_64-linux)
       racc (~> 1.4)
+    pexels (0.4.0)
+      requests (~> 1.0.2)
     public_suffix (5.0.4)
     puma (5.6.8)
       nio4r (~> 2.0)
@@ -172,6 +174,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.9.0)
+    requests (1.0.2)
     rexml (3.2.6)
     rubyzip (2.3.2)
     sass-rails (6.0.0)
@@ -249,6 +252,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  pexels (~> 0.4.0)
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.7, >= 6.1.7.6)
@@ -267,4 +271,4 @@ RUBY VERSION
    ruby 3.3.0p0
 
 BUNDLED WITH
-   2.5.3
+   2.5.5
